@@ -1,0 +1,31 @@
+
+.table-outer{
+    overflow: auto;
+    width: 900px;
+    margin: 50% auto;
+}
+.Flipped, .Flipped .Content{
+    transform: rotateX(180deg);
+}
+  
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
